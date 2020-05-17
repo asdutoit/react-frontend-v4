@@ -10,7 +10,7 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 import DeviceStatus from "./DeviceStatus";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-
+// import Link from "@material-ui/core/Link";
 // function provStateFunc(row) {
 //   return row.provisioned === "Provisioned" ? true : false;
 // }
@@ -68,7 +68,7 @@ function OntTableRow({ row, index, isItemSelected, handleClick }) {
         }
       </TableCell>
       <TableCell align="left">
-        <Link to={`/editont/${row._id}`}>
+        <Link to={`/editont/${row._id}`} style={{ textDecoration: "none" }}>
           <Button variant="outlined">EDIT</Button>
         </Link>
       </TableCell>
