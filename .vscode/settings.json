@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.inactiveForeground": "#000",
+    "titleBar.activeBackground": "#e9e50a",
+    "titleBar.inactiveBackground": "#e6962e",
+    "statusBar.background": "#8f3b14",
+    "statusBar.foreground": "#000"
+  },
+  "workbench.colorTheme": "Noctis"
+}
