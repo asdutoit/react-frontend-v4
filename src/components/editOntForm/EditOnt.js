@@ -381,7 +381,7 @@ export default function EditOnt(props) {
                     }
                   >
                     <div className={isActive ? classes.divEl : null}>
-                      <Link to="/">
+                      <Link to="/" style={{ textDecoration: "none" }}>
                         <Button variant="outlined">Home</Button>
                       </Link>
                     </div>
