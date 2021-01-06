@@ -8,7 +8,7 @@
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
     "@material-ui/lab": "^4.0.0-alpha.52",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "clsx": "latest",
     "datatables.net": "^1.10.20",
     "datatables.net-buttons": "^1.6.1",
